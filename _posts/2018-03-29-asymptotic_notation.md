@@ -38,11 +38,13 @@ n의 값에 따라서 각항의 T(n)에 대해 영향을 미치는 비율은 다
 다음과 같은 식이 있다고 가정해 보자.
   
  n<sup>k</sup> , c<sup>n</sup> (단, k>=1, c>1) 
+ ------
 
 n<sup>k</sup>는 O(c<sup>n</sup>)은 맞는 표현이다.
 c<sup>n</sup>은 n이 충분히 커졌을때 n<sup>k</sup>보다 항상 크기 때문이다. 
  
  lgn , log<sub>8</sub>n
+ ----------
 
 로그는 다음과 같은 식이 성립한다.
 log<sub>a</sub>n = log<sub>c</sub>n/log<sub>c</sub>a 이고(단, c,a는 정수) n이 충분히 커지면 1/log<sub>c</sub>a의 값은
